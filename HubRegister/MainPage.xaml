@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="HubRegister.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HubRegister"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="buttonSend" Content="Send" HorizontalAlignment="Left" Height="50" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Click="buttonSend_Click"/>
+        <Button x:Name="buttonRecv" Content="Recv" HorizontalAlignment="Left" Height="50" Margin="185,10,0,0" VerticalAlignment="Top" Width="70" Click="buttonRecv_Click"/>
+        <Button x:Name="button" Content="Recv Run" HorizontalAlignment="Left" Height="50" Margin="260,10,0,0" VerticalAlignment="Top" Width="85" Click="buttonRun_Click"/>
+        <TextBox x:Name="textBoxSend" HorizontalAlignment="Left" Height="30" Margin="15,70,0,0" TextWrapping="Wrap" Text="Send Me" VerticalAlignment="Top" Width="335"/>
+        <TextBox x:Name="textBoxRecv" HorizontalAlignment="Left" Height="505" Margin="15,110,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="330" IsReadOnly="True" AcceptsReturn="True" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <Button x:Name="button1" Content="Send Run" HorizontalAlignment="Left" Height="50" Margin="75,10,0,0" VerticalAlignment="Top" Width="85" Click="buttonSendRun_Click"/>
+
+    </Grid>
+</Page>
